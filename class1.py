@@ -5,7 +5,6 @@ class Father:
         self.name=name
         self.age=age
         self.shop=shop
-        print("This is Father Constructor")
         
     def get_father(self):
         print(f"This is Belong to Father instance method\nName:{self.name}\nAge: {self.age}\nNo of Shops: {self.shop}\n")
